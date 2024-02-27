@@ -1,0 +1,71 @@
+//------------------------find-style------------------------
+
+.swiper-pagination {
+  margin-bottom: 50px;
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  min-width: 0;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+
+  background: rgba(248, 241, 234, 0.7);
+}
+
+.find-style {
+  &__container {
+    position: relative;
+  }
+  &__content {
+    max-width: 350px;
+    min-height: 212px;
+
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    z-index: 5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  &__image {
+    img {
+      width: 100%;
+      min-height: 700px;
+    }
+  }
+}
+
+// ----------
+/*@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 360px) {
+
+}
+@media(max-width: 320px){
+  
+}*/

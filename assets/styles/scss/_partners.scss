@@ -1,0 +1,43 @@
+//-----------------------------------partners-----------------------------
+
+.partners {
+  background-color: #f8f1ea;
+
+  &__container {
+    padding: 70px 40px;
+    min-height: 290px;
+
+    position: relative;
+  }
+
+  &__block {
+    max-width: 1186px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &__swiper {
+    width: 100%;
+    height: 70px;
+    position: static;
+  }
+
+  &__swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: calc(var(--swiper-navigation-size) / 40 * 72);
+    margin-bottom: 20px;
+    top: var(--swiper-navigation-top-offset, 63%);
+  }
+}
